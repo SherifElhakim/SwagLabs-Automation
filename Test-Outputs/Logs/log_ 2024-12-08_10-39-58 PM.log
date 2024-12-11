@@ -1,0 +1,8 @@
+[INFO] 08-12-2024 22:39:58 [main] [Tests.TC04_OverviewPageTests.setup(TC04_OverviewPageTests.java:30)] - driver initiated
+[INFO] 08-12-2024 22:40:00 [main] [Tests.TC04_OverviewPageTests.setup(TC04_OverviewPageTests.java:34)] - Page is redirected to URL
+[INFO] 08-12-2024 22:40:00 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckOutStepOne Started
+[INFO] 08-12-2024 22:40:00 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 3
+[INFO] 08-12-2024 22:40:00 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 5
+[INFO] 08-12-2024 22:40:00 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 6
+[INFO] 08-12-2024 22:40:01 [main] [Tests.TC04_OverviewPageTests.CheckOutStepOne(TC04_OverviewPageTests.java:50)] - ZipCode used in this test case is 11707
+[INFO] 08-12-2024 22:40:01 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckOutStepOne Passed

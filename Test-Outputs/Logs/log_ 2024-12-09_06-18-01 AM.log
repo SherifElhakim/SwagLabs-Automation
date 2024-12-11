@@ -1,0 +1,9 @@
+[INFO] 09-12-2024 06:18:01 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:30)] - driver initiated
+[INFO] 09-12-2024 06:18:02 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:34)] - Page is redirected to URL
+[INFO] 09-12-2024 06:18:02 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckOutStepOne Started
+[INFO] 09-12-2024 06:18:03 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 1
+[INFO] 09-12-2024 06:18:03 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 3
+[INFO] 09-12-2024 06:18:03 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 6
+[INFO] 09-12-2024 06:18:03 [main] [Pages.P05_OverviewPage.getSubTotalPrice(P05_OverviewPage.java:27)] - SubTotal Price: 61.97
+[INFO] 09-12-2024 06:18:03 [main] [Pages.P05_OverviewPage.CheckTotalPrice(P05_OverviewPage.java:44)] - 61.97 + 4.96 = 66.93
+[INFO] 09-12-2024 06:18:03 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckOutStepOne Passed

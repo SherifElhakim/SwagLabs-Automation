@@ -1,0 +1,12 @@
+[INFO] 10-12-2024 23:05:30 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 10-12-2024 23:06:57 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 10-12-2024 23:06:57 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case InvalidLoginData Started
+[INFO] 10-12-2024 23:06:57 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case InvalidLoginData Passed
+[INFO] 10-12-2024 23:06:57 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 10-12-2024 23:06:59 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 10-12-2024 23:06:59 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case InvalidLoginEmptyFields Started
+[INFO] 10-12-2024 23:06:59 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case InvalidLoginEmptyFields Passed
+[INFO] 10-12-2024 23:06:59 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 10-12-2024 23:07:00 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 10-12-2024 23:07:00 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case Valid_Login Started
+[INFO] 10-12-2024 23:07:01 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case Valid_Login Passed

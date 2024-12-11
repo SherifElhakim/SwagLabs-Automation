@@ -1,0 +1,4 @@
+[INFO] 10-12-2024 22:04:38 [main] [Tests.TC02_LandingPageTests_UsingCookies.LoginSession(TC02_LandingPageTests_UsingCookies.java:29)] - driver initiated
+[INFO] 10-12-2024 22:04:41 [main] [Tests.TC02_LandingPageTests_UsingCookies.LoginSession(TC02_LandingPageTests_UsingCookies.java:33)] - Page is redirected to URL
+[INFO] 10-12-2024 22:05:00 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case ClickOnCartIcon Started
+[INFO] 10-12-2024 22:05:00 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case ClickOnCartIcon Passed

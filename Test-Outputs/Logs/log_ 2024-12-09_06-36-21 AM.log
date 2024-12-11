@@ -1,0 +1,7 @@
+[INFO] 09-12-2024 06:36:21 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:31)] - driver initiated
+[INFO] 09-12-2024 06:36:23 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:35)] - Page is redirected to URL
+[INFO] 09-12-2024 06:36:23 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckOutStepOne Started
+[INFO] 09-12-2024 06:36:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 2
+[INFO] 09-12-2024 06:36:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 3
+[INFO] 09-12-2024 06:36:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 4
+[INFO] 09-12-2024 06:36:24 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckOutStepOne Passed

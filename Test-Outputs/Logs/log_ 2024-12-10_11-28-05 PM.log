@@ -1,0 +1,7 @@
+[INFO] 10-12-2024 23:28:05 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:28)] - driver initiated
+[INFO] 10-12-2024 23:28:07 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:32)] - Page is redirected to URL
+[INFO] 10-12-2024 23:28:07 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckNumberOfSelectedProductsAfterremoving Started
+[INFO] 10-12-2024 23:28:07 [main] [Pages.P02_LandingPage.AddAllProductsToCart(P02_LandingPage.java:38)] - Number of all products = 6
+[INFO] 10-12-2024 23:28:07 [main] [Pages.P02_LandingPage.NumberOfSelectedProducts(P02_LandingPage.java:60)] - Number of Selected Products = 5
+[INFO] 10-12-2024 23:28:07 [main] [Pages.P02_LandingPage.CounterOnCart(P02_LandingPage.java:49)] - Number of Products in Cart = 5
+[INFO] 10-12-2024 23:28:07 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckNumberOfSelectedProductsAfterremoving Passed

@@ -1,0 +1,4 @@
+[INFO] 10-12-2024 22:53:08 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 10-12-2024 22:53:10 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 10-12-2024 22:53:10 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case InvalidLoginEmptyFields Started
+[INFO] 10-12-2024 22:53:10 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case InvalidLoginEmptyFields Passed

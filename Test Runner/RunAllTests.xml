@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTests_suite">
+    <listeners>
+        <listener class-name="Listeners.IinvokedListenerCLass"></listener>
+        <listener class-name="Listeners.ITestResultLIstenerClass"></listener>
+    </listeners>
+    <test name="All">
+        <classes>
+            <class name="Tests.TC01_LoginPageTests"/>
+            <class name="Tests.TC02_LandingPageTests"/>
+            <class name="Tests.TC03_CartPageTests"/>
+            <class name="Tests.TC04_OverviewPageTests"/>
+            <class name="Tests.TC05_OverviewPageTests"/>
+            <class name="Tests.TC06_CheckOutCompletePageTests"/>
+        </classes>
+    </test>
+</suite>

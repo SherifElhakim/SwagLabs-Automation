@@ -1,0 +1,24 @@
+[INFO] 07-12-2024 23:36:48 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 07-12-2024 23:36:51 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 07-12-2024 23:36:51 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case Valid_Login Started
+[INFO] 07-12-2024 23:36:51 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case Valid_Login Passed
+[INFO] 07-12-2024 23:36:52 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:27)] - driver initiated
+[INFO] 07-12-2024 23:36:54 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - Page is redirected to URL
+[INFO] 07-12-2024 23:36:54 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckNumberOfSelectedProducts Started
+[INFO] 07-12-2024 23:36:54 [main] [Pages.P02_LandingPage.AddAllProductsToCart(P02_LandingPage.java:37)] - Number of all products = 6
+[INFO] 07-12-2024 23:36:55 [main] [Pages.P02_LandingPage.NumberOfSelectedProducts(P02_LandingPage.java:59)] - Number of Selected Products = 6
+[INFO] 07-12-2024 23:36:55 [main] [Pages.P02_LandingPage.CounterOnCart(P02_LandingPage.java:48)] - Number of Products in Cart = 6
+[INFO] 07-12-2024 23:36:55 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckNumberOfSelectedProducts Passed
+[INFO] 07-12-2024 23:36:56 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:27)] - driver initiated
+[INFO] 07-12-2024 23:36:57 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - Page is redirected to URL
+[INFO] 07-12-2024 23:36:57 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case ClickOnCartIcon Started
+[INFO] 07-12-2024 23:36:58 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case ClickOnCartIcon Passed
+[INFO] 07-12-2024 23:36:59 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:27)] - driver initiated
+[INFO] 07-12-2024 23:37:00 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - Page is redirected to URL
+[INFO] 07-12-2024 23:37:00 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case addingRandomProducts Started
+[INFO] 07-12-2024 23:37:01 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 1
+[INFO] 07-12-2024 23:37:01 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 4
+[INFO] 07-12-2024 23:37:01 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 5
+[INFO] 07-12-2024 23:37:01 [main] [Pages.P02_LandingPage.NumberOfSelectedProducts(P02_LandingPage.java:59)] - Number of Selected Products = 3
+[INFO] 07-12-2024 23:37:01 [main] [Pages.P02_LandingPage.CounterOnCart(P02_LandingPage.java:48)] - Number of Products in Cart = 3
+[INFO] 07-12-2024 23:37:01 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case addingRandomProducts Passed

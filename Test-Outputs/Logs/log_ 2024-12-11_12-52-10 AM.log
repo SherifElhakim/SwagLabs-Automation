@@ -1,0 +1,8 @@
+[INFO] 11-12-2024 00:52:10 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:29)] - driver initiated
+[INFO] 11-12-2024 00:52:12 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:33)] - Page is redirected to URL
+[INFO] 11-12-2024 00:52:12 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckNumberOfSelectedProductsAfterremoving Started
+[INFO] 11-12-2024 00:52:12 [main] [Pages.P02_LandingPage.AddAllProductsToCart(P02_LandingPage.java:39)] - Number of all products = 6
+[INFO] 11-12-2024 00:52:12 [main] [Pages.P02_LandingPage.UnselectRandomElement(P02_LandingPage.java:108)] - Random Project Removed is the Product number 5
+[INFO] 11-12-2024 00:52:13 [main] [Pages.P02_LandingPage.NumberOfSelectedProducts(P02_LandingPage.java:61)] - Number of Selected Products = 5
+[INFO] 11-12-2024 00:52:13 [main] [Pages.P02_LandingPage.CounterOnCart(P02_LandingPage.java:50)] - Number of Products in Cart = 5
+[INFO] 11-12-2024 00:52:13 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckNumberOfSelectedProductsAfterremoving Passed

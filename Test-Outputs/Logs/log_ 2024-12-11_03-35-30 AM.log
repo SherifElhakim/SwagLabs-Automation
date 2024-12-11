@@ -1,0 +1,4 @@
+[INFO] 11-12-2024 03:35:30 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:29)] - driver initiated
+[INFO] 11-12-2024 03:35:32 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:33)] - Page is redirected to URL
+[INFO] 11-12-2024 03:35:32 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case VerifyTwitterButton Started
+[INFO] 11-12-2024 03:35:32 [main] [Listeners.IinvokedListenerCLass.afterInvocation(IinvokedListenerCLass.java:22)] - Test Case VerifyTwitterButton failed

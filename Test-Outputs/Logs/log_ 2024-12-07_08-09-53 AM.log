@@ -1,0 +1,4 @@
+[INFO] 07-12-2024 08:09:53 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:28)] - driver initiated
+[INFO] 07-12-2024 08:09:54 [main] [Tests.TC01_LoginPageTests.setup(TC01_LoginPageTests.java:33)] - Page is redirected to URL
+[INFO] 07-12-2024 08:09:54 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:12)] - Test CaseValid_LoginStarted
+[INFO] 07-12-2024 08:09:55 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:17)] - Test CaseValid_LoginPassed

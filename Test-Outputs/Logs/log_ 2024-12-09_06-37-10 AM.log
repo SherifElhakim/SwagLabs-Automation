@@ -1,0 +1,5 @@
+[INFO] 09-12-2024 06:37:10 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:31)] - driver initiated
+[INFO] 09-12-2024 06:37:12 [main] [Tests.TC05_OverviewPageTests.setup(TC05_OverviewPageTests.java:35)] - Page is redirected to URL
+[INFO] 09-12-2024 06:37:12 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case CheckOutStepOne Started
+[INFO] 09-12-2024 06:37:12 [main] [Pages.P02_LandingPage.AddAllProductsToCart(P02_LandingPage.java:37)] - Number of all products = 6
+[INFO] 09-12-2024 06:37:13 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case CheckOutStepOne Passed

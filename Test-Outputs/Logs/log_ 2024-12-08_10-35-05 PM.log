@@ -1,0 +1,5 @@
+[INFO] 08-12-2024 22:35:05 [main] [Tests.TC04_OverviewPageTests.setup(TC04_OverviewPageTests.java:26)] - driver initiated
+[INFO] 08-12-2024 22:35:08 [main] [Tests.TC04_OverviewPageTests.setup(TC04_OverviewPageTests.java:30)] - Page is redirected to URL
+[INFO] 08-12-2024 22:35:08 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 2
+[INFO] 08-12-2024 22:35:08 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 4
+[INFO] 08-12-2024 22:35:08 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:75)] - Number of Random Product Selected is 6
