@@ -128,6 +128,4 @@ public class Util {
             driver.manage().addCookie(co);
         }
     }
-
-    
 }
