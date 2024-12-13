@@ -10,6 +10,7 @@ import java.util.List;
 
 public class P03_CartPAge {
     static float TotalPrice = 0;
+    private final By SelectedProducts = By.xpath("//button[.='Remove']");
     private final By SelectedProductsPrices = By.xpath("//button[.=\"Remove\"]//preceding-sibling::div[@data-test='inventory-item-price']");
     private final By CheckoutButton = By.xpath("//button[@data-test='checkout']");
     private final WebDriver driver;
@@ -36,6 +37,11 @@ public class P03_CartPAge {
 
     public boolean ComparingPrices(String price) {
         return getTotalPriceInCart().equals(price);
+    }
+
+    public void RemoveProd() {
+        By prod = By.xpath("(//button[.='Remove'])[1]");
+        Util.ClickElement(driver, prod);
     }
 
     public P04_CheckoutPage clickCheckoutButton() {

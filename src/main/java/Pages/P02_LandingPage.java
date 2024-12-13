@@ -21,7 +21,7 @@ public class P02_LandingPage {
     private final By SelectedProductsPrices = By.xpath("//button[.=\"Remove\"]//preceding-sibling::div[@data-test='inventory-item-price']");
     private final By twitterButton = By.xpath("//a[@data-test='social-twitter']");
     private final By FaceBook = By.xpath("//a[@data-test='social-facebook']");
-    private final By linkedin = By.xpath("//a[@data-test='social_linkedin']");
+    private final By linkedin = By.xpath("//a[@data-test='social-linkedin']");
 
     private final WebDriver driver;
 

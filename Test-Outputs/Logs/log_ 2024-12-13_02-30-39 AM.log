@@ -1,0 +1,9 @@
+[INFO] 13-12-2024 02:30:39 [main] [Tests.TC03_CartPageTests.setup(TC03_CartPageTests.java:27)] - driver initiated
+[INFO] 13-12-2024 02:30:40 [main] [Tests.TC03_CartPageTests.setup(TC03_CartPageTests.java:31)] - Page is redirected to URL
+[INFO] 13-12-2024 02:30:40 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case RemoveItemfromCart Started
+[INFO] 13-12-2024 02:30:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:79)] - Number of Random Product Selected is 1
+[INFO] 13-12-2024 02:30:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:79)] - Number of Random Product Selected is 4
+[INFO] 13-12-2024 02:30:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:79)] - Number of Random Product Selected is 5
+[INFO] 13-12-2024 02:30:41 [main] [Pages.P02_LandingPage.getTotalPrice(P02_LandingPage.java:100)] - Total Price = 87.97
+[INFO] 13-12-2024 02:30:41 [main] [Pages.P03_CartPAge.getTotalPriceInCart(P03_CartPAge.java:31)] - Total Price of items in Cart = 57.980003
+[INFO] 13-12-2024 02:30:41 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case RemoveItemfromCart Passed

@@ -1,0 +1,13 @@
+[INFO] 13-12-2024 02:09:03 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - driver initiated
+[INFO] 13-12-2024 02:09:05 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:35)] - Page is redirected to URL
+[INFO] 13-12-2024 02:09:05 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case VerifyTwitterButton Started
+[INFO] 13-12-2024 02:09:09 [main] [Tests.TC02_LandingPageTests.VerifyTwitterButton(TC02_LandingPageTests.java:100)] - Window is https://x.com/saucelabs
+[INFO] 13-12-2024 02:09:09 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case VerifyTwitterButton Passed
+[INFO] 13-12-2024 02:09:09 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - driver initiated
+[INFO] 13-12-2024 02:09:10 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:35)] - Page is redirected to URL
+[INFO] 13-12-2024 02:09:10 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case VerifyFacebookButton Started
+[INFO] 13-12-2024 02:09:11 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case VerifyFacebookButton Passed
+[INFO] 13-12-2024 02:09:11 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:31)] - driver initiated
+[INFO] 13-12-2024 02:09:13 [main] [Tests.TC02_LandingPageTests.setup(TC02_LandingPageTests.java:35)] - Page is redirected to URL
+[INFO] 13-12-2024 02:09:13 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case VerifyLinkedinButton Started
+[INFO] 13-12-2024 02:09:14 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case VerifyLinkedinButton Passed

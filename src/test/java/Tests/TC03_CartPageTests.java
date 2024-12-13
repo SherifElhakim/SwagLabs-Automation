@@ -45,6 +45,19 @@ public class TC03_CartPageTests {
         Assert.assertTrue(new P03_CartPAge(getDriver()).ComparingPrices(totalSelected));
     }
 
+    @Test
+    public void RemoveItemfromCart() throws FileNotFoundException {
+        String totalSelected = new P01_LoginPage(getDriver())
+                .SetUsername(getJsonData("ValidLogin", "username"))
+                .SetPassword(getJsonData("ValidLogin", "passw"))
+                .Click_Login_Button()
+                .addRandomProducts(3, 6)
+                .getTotalPrice();
+        new P02_LandingPage(getDriver()).clickCartIcon().RemoveProd();
+
+        Assert.assertFalse(new P03_CartPAge(getDriver()).ComparingPrices(totalSelected));
+    }
+
     @AfterMethod
     public void End() {
         quitDriver();

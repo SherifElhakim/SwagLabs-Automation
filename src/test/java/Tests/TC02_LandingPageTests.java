@@ -17,9 +17,10 @@ import org.testng.annotations.Test;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Objects;
+import java.util.Set;
 
-import static DriverFactory.DriverFactory.getDriver;
-import static DriverFactory.DriverFactory.setupDriver;
+import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.getJsonData;
 
 @Listeners({IinvokedListenerCLass.class, ITestResultLIstenerClass.class})
@@ -82,6 +83,7 @@ public class TC02_LandingPageTests {
         Assert.assertTrue(Util.VerifyRedirectToPage(getDriver(), DataUtils.getPropertiesValue("enviroments", "Cart_URL")));
     }
 
+
     @Test
     public void VerifyTwitterButton() throws FileNotFoundException {
         new P01_LoginPage(getDriver())
@@ -89,6 +91,13 @@ public class TC02_LandingPageTests {
                 .SetPassword(getJsonData("ValidLogin", "passw"))
                 .Click_Login_Button()
                 .ClickTwitterButton();
+        Set<String> handles = getDriver().getWindowHandles();
+        for (String h : handles) {
+            if (!Objects.equals(getDriver().getWindowHandle(), h)) {
+                getDriver().switchTo().window(h);
+            }
+        }
+        LogsUtils.info("Window is " + getDriver().getCurrentUrl());
         Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().equals("https://x.com/saucelabs"));
     }
 
@@ -99,6 +108,12 @@ public class TC02_LandingPageTests {
                 .SetPassword(getJsonData("ValidLogin", "passw"))
                 .Click_Login_Button()
                 .ClickFacebookButton();
+        Set<String> handles = getDriver().getWindowHandles();
+        for (String h : handles) {
+            if (!Objects.equals(getDriver().getWindowHandle(), h)) {
+                getDriver().switchTo().window(h);
+            }
+        }
         Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().equals("https://www.facebook.com/saucelabs"));
     }
 
@@ -109,11 +124,17 @@ public class TC02_LandingPageTests {
                 .SetPassword(getJsonData("ValidLogin", "passw"))
                 .Click_Login_Button()
                 .ClickLinkedinButton();
-        Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().equals("https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGXBECpTeRMlQAAAZOzQaD4dVWitSOOE3OrrrVTkjltPy3X4pbofVajGqUjtZ6rhfRLQeoFif5po9p78u3FIX6-YtbGUhpO9OEU4mJa3182CMcl-vMNAmN0PGaOiNdqIs8nGcg=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsauce-labs%2F"));
+        Set<String> handles = getDriver().getWindowHandles();
+        for (String h : handles) {
+            if (!Objects.equals(getDriver().getWindowHandle(), h)) {
+                getDriver().switchTo().window(h);
+            }
+        }
+        Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().equals("https://www.linkedin.com/company/sauce-labs/"));
     }
 
     @AfterMethod
     public void End() {
-        // quitDriver();
+        quitDriver();
     }
 }
