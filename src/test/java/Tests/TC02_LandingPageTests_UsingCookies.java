@@ -26,11 +26,11 @@ public class TC02_LandingPageTests_UsingCookies {
 
     @BeforeClass
     public void LoginSession() throws IOException {
-        LogsUtils.info("driver initiated");
         setupDriver(DataUtils.getPropertiesValue("enviroments", "Browser"));
+        LogsUtils.info("driver initiated");
         getDriver().get(DataUtils.getPropertiesValue("enviroments", "Base_URL"));
-        getDriver().manage().window().maximize();
         LogsUtils.info("Page is redirected to URL");
+        getDriver().manage().window().maximize();
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         new P01_LoginPage(getDriver())
                 .SetUsername(DataUtils.getJsonData("ValidLogin", "username"))

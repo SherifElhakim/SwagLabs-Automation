@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Objects;
 import java.util.Set;
 
@@ -28,12 +27,11 @@ public class TC02_LandingPageTests {
 
     @BeforeMethod
     public void setup() throws IOException {
-        LogsUtils.info("driver initiated");
         setupDriver(DataUtils.getPropertiesValue("enviroments", "Browser"));
+        LogsUtils.info("driver initiated");
         getDriver().get(DataUtils.getPropertiesValue("enviroments", "Base_URL"));
-        getDriver().manage().window().maximize();
         LogsUtils.info("Page is redirected to URL");
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().manage().window().maximize();
     }
 
     @Test

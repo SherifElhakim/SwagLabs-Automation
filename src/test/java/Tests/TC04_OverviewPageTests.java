@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
 
 import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.getJsonData;
@@ -26,12 +25,11 @@ public class TC04_OverviewPageTests {
 
     @BeforeMethod
     public void setup() throws IOException {
-        LogsUtils.info("driver initiated");
         setupDriver(DataUtils.getPropertiesValue("enviroments", "Browser"));
+        LogsUtils.info("driver initiated");
         getDriver().get(DataUtils.getPropertiesValue("enviroments", "Base_URL"));
-        getDriver().manage().window().maximize();
         LogsUtils.info("Page is redirected to URL");
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().manage().window().maximize();
     }
 
     @Test

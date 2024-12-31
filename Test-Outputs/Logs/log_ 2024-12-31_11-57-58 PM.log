@@ -1,0 +1,7 @@
+[INFO] 31-12-2024 23:57:58 [main] [Tests.TC06_CheckOutCompletePageTests.setup(TC06_CheckOutCompletePageTests.java:30)] - driver initiated
+[INFO] 31-12-2024 23:57:59 [main] [Tests.TC06_CheckOutCompletePageTests.setup(TC06_CheckOutCompletePageTests.java:32)] - Page is redirected to URL
+[INFO] 31-12-2024 23:57:59 [main] [Listeners.ITestResultLIstenerClass.onTestStart(ITestResultLIstenerClass.java:10)] - Test Case FinishingOrder Started
+[INFO] 31-12-2024 23:58:00 [main] [Pages.P02_LandingPage.AddAllProductsToCart(P02_LandingPage.java:41)] - Number of all products = 6
+[INFO] 31-12-2024 23:58:00 [main] [Pages.P05_OverviewPage.getSubTotalPrice(P05_OverviewPage.java:27)] - SubTotal Price: 129.94
+[INFO] 31-12-2024 23:58:00 [main] [Pages.P05_OverviewPage.CheckTotalPrice(P05_OverviewPage.java:44)] - 129.94 + 10.4 = 140.34
+[INFO] 31-12-2024 23:58:00 [main] [Listeners.ITestResultLIstenerClass.onTestSuccess(ITestResultLIstenerClass.java:14)] - Test Case FinishingOrder Passed

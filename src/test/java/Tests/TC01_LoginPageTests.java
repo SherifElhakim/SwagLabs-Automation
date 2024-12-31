@@ -12,7 +12,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import static DriverFactory.DriverFactory.*;
 
@@ -25,13 +24,12 @@ public class TC01_LoginPageTests {
     public void setup() throws IOException {
 //        driver = new ChromeDriver();
 //        setupDriver("chrome");
-        LogsUtils.info("driver initiated");
         setupDriver(DataUtils.getPropertiesValue("enviroments", "Browser"));
+        LogsUtils.info("driver initiated");
 //        driver.get("https://www.saucedemo.com/");
         getDriver().get(DataUtils.getPropertiesValue("enviroments", "Base_URL"));
-        getDriver().manage().window().maximize();
         LogsUtils.info("Page is redirected to URL");
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().manage().window().maximize();
     }
 
     @Test
